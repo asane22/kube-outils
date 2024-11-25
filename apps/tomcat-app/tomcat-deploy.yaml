@@ -4,7 +4,7 @@ metadata:
   name: tomcat-app
   namespace: tomcat-namespace
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: tomcat-app
